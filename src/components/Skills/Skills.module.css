@@ -1,0 +1,40 @@
+.skills {
+    background-color: rgba(28, 28, 26, 0.8);
+    color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    text-align: center;
+    width: 600px;
+    padding: 10px;
+    margin: 30px auto 30px auto;
+}
+
+.h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.languages {
+    margin-top: 20px;
+}
+
+.languages img {
+    height: 50px;
+    margin: 5px 0 5px 20px;
+}
+
+h4 {
+    margin: 5px;
+}
+
+@media all and (max-width: 750px) {
+    .languages {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skills {
+        max-width: 90%;
+    }
+}

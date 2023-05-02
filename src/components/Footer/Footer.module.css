@@ -1,0 +1,41 @@
+.footer {
+    background-color: rgba(28, 28, 26, 0.8);
+    box-shadow: 0 0 15px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    width: 96%;
+    margin: 20px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+.footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer img {
+    height: 50px;
+}
+
+.footer a:nth-child(2) {
+    margin-left: 35px;
+}
+
+.footer img[alt="logo github"] {
+    background-color: #000000;
+}
+
+@media all and (max-width: 750px) {
+    .footer {
+        margin-left: 10px;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .footer img {
+        height: 30px;
+    }
+}
