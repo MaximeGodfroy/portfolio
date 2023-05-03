@@ -56,7 +56,7 @@ export default function Description() {
                 <Bonjour>Qui suis-je ?</Bonjour>
                 <DescriptionText>Après avoir travaillé dans la recherche et développement en chimie pendant 13 ans, j’ai décidé de me reconvertir dans 
                 un nouveau domaine qui satisfait ma rigueur et mon envie de me former tous les jours : le développement informatique.<br />
-                Parcourez l'ensemble des projets que j'ai réalisés pendant ma formation OpenClassRooms. </DescriptionText>  
+                Parcourez mon portfolio présentant l'ensemble des projets que j'ai réalisés pendant ma formation OpenClassRooms. </DescriptionText>  
             </Texts>
         </Presentation>
     )
