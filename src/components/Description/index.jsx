@@ -15,6 +15,7 @@ const Presentation = styled.section`
     @media all and (max-width: 750px) {
         img {
             width: 100px;
+            height: 112.44px;
         }
         flex-direction: column;
     }
@@ -50,7 +51,7 @@ export default function Description() {
 
     return (
         <Presentation>
-            <img src={portrait} alt='portrait' />
+            <img src={portrait} alt='portrait' height='253' width='225'/>
             <Texts>
                 <Bonjour>Qui suis-je ?</Bonjour>
                 <DescriptionText>Après avoir travaillé dans la recherche et développement en chimie pendant 13 ans, j’ai décidé de me reconvertir dans 

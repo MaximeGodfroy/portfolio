@@ -6,7 +6,7 @@ export default function Error() {
         <div className={styles.error}>
             <h1 className={styles.alert404}>404</h1>
             <h2 className={styles.description}>Oups! La page que vous demandez n'existe pas</h2>
-            <Link to='/portfolio-accueil'>Retourner sur la page d'accueil</Link>
+            <Link to='/portfolio'>Retourner sur la page d'accueil</Link>
         </div>
     );
 }

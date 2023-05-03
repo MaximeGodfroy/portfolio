@@ -12,12 +12,12 @@ export default function Skills() {
             <h2 className={styles.h2}>Mes compétences :</h2>
             <h3>Langages : </h3>
             <div className={styles.languages}>
-                <img src={html} alt='logo html'></img>
-                <img src={css} alt='logo css'></img>
-                <img src={js} alt='logo js'></img>
-                <img src={react} alt='logo react'></img>
-                <img src={node} alt='logo node'></img>
-                <img src={mongodb} alt='logo mongodb'></img>
+                <img src={html} alt='logo html' width='50' height='50'></img>
+                <img src={css} alt='logo css' width='50' height='50'></img>
+                <img src={js} alt='logo js' width='43.83' height='50'></img>
+                <img src={react} alt='logo react' width='50' height='50'></img>
+                <img src={node} alt='logo node' width='81.63' height='50'></img>
+                <img src={mongodb} alt='logo mongodb' width='183.91' height='50'></img>
             </div>
             <h3>Autres compétences :</h3>
             <div className={styles.other}>
