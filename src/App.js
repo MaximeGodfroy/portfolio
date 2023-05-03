@@ -16,7 +16,7 @@ function App() {
         <Router>
             <Header />
             <Routes>
-                <Route path='/portfolio-accueil' element={<Accueil />} />
+                <Route path='/portfolio' element={<Accueil />} />
                 <Route path='/portfolio/mes-projets' element={<MesProjets />} />
                 <Route path='/portfolio/mes-projets/:id' element={<MonProjet />} errorElement={<Error404 />} />
                 <Route path='/portfolio/contact' element={<Contact />} />
