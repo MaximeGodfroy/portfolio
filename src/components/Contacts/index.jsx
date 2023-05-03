@@ -19,7 +19,9 @@ const Text = styled.section`
     }
     a>img {
         height: 50px;
-        margin: 0 0 0 40px;
+    }
+    div>a {
+        margin-right: 40px;
     }
     div {
         display:flex;
