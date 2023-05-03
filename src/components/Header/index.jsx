@@ -11,7 +11,7 @@ export default function Header() {
                 <h1>Maxime GODFROY</h1>
             </Link>
             <nav className={styles.nav}>
-                {sampleLocation.pathname.endsWith('/portfolio/') ? <NavLink to="/portfolio" className={`${styles.link} ${styles.linkActive}`} >
+                {sampleLocation.pathname.endsWith('/portfolio') || sampleLocation.pathname.endsWith('/portfolio/')  ? <NavLink to="/portfolio" className={`${styles.link} ${styles.linkActive}`} >
                     <span>ACCUEIL</span>
                 </NavLink> : <NavLink to="/portfolio" className={styles.link} >
                     <span>ACCUEIL</span>

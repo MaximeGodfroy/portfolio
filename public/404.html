@@ -13,10 +13,36 @@
 
   </head>
   <body>
+    <header>
+        <a class='title' href="https://maximegodfroy.github.io/portfolio">
+            <h1>Maxime GODFROY</h1>
+        </a>
+        <nav className={styles.nav}>
+            <a href="https://maximegodfroy.github.io/portfolio" class='link' >
+                <span>ACCUEIL</span>
+            </a>
+            <a href="https://maximegodfroy.github.io/portfolio/mes-projets" class='link'>
+                <span>MES PROJETS</span>
+            </a>
+            <a href="./cv.pdf" class='link'>
+                <span>CV</span>
+            </a>
+            <a href="https://maximegodfroy.github.io/portfolio/contact" class='link'>
+                <span>CONTACT</span>
+            </a>
+        </nav>
+    </header>
     <main class="error">
-        <h1 class="alert404">404</h1>
-        <h2 class="description">Oups! La page que vous demandez n'existe pas</h2>
-        <a href='https://maximegodfroy.github.io/maximegodfroydev-accueil'>Retourner sur la page d'accueil</a>
+        <h2 class="alert404">404</h2>
+        <h3 class="description">Oups! La page que vous demandez n'existe pas</h3>
+        <a href='https://maximegodfroy.github.io/portfolio' class="linkhomepage">Retourner sur la page d'accueil</a>
     </main>
+    <footer class='footer'>
+        <div>
+            <a href="https://github.com/MaximeGodfroy"><img src='./github.png' alt="logo github" /></a>
+            <a href='https://www.linkedin.com/in/maximegodfroy/'><img src='./linkedin.png' alt='logo linkedin' /></a>
+        </div>
+        <p>Copyright © Maxime GODFROY 2023</p>
+    </footer>
   </body>
 </html>
