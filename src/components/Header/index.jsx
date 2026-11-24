@@ -1,6 +1,6 @@
 import styles from './Header.module.css'
 import { Link, NavLink, useLocation } from 'react-router-dom'
-import cv from '../../assets/cv.pdf'
+import cv from '../../assets/cv1.pdf'
 
 export default function Header() {
     const sampleLocation = useLocation();
